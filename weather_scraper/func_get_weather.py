@@ -7,6 +7,11 @@ import pytz
 from ignore.OpenWeatherAPI import Key
 
 def get_weather():
+    """
+    This function takes the coordiantes from the Geo_Requests folder, makes 4 weather requests to OpenWeather.com, parses       out the information that I want, and writes it to New_Weather.csv along with the timestamp that the request was       
+    made.New_Weather.csv is overwritten each time the get_weather() function is ran, so it only contains the data from the 
+    most recent request.
+    """
     # Import dataset with latitudes and longitudes
     file_path="~/repos/weather_scraper/Geo_Requests/geolocations.csv"
     df = pd.read_csv(file_path, index_col=0)
