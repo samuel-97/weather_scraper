@@ -1,0 +1,5 @@
+latitude,longitude,Country,State,City,weather_description,temp(F),feels_like(F),humidity,speed,deg,forecast_min,forecast_max,Timezone,Time
+35.3738712,-119.0194639,US,California,Bakersfield,overcast clouds,55.13,54.39,86,1.99,89,52.52,57.13,US/Pacific,2024-01-24 10:16
+40.7127281,-74.0060152,US,New York,New York City,mist,41.05,36.46,88,6.91,50,37.83,44.17,US/Eastern,2024-01-24 13:16
+38.6715081,-77.9955519,US,Virginia,Amissville,overcast clouds,42.03,39.88,91,3.76,179,39.63,48.9,US/Eastern,2024-01-24 13:16
+6.2443382,-75.573553,CO,Antioquia,Medellin,clear sky,86.83,84.69,31,12.66,60,86.14,91.81,Etc/GMT+5,2024-01-24 13:16
